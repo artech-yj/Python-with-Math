@@ -53,7 +53,7 @@ x.shape
 
 만약에 두 벡터의 덧셈과 뺄셈을 할 때 반드시 두 벡터의 형태가 같아야 한다. 그 이유는 덧셈과 뺄셈을 할 때 각각의 벡터 상에서 같은 위치에 있는 성분들끼리 연산이 되기 때문이다. 
 
-<img src="/Users/youngjunyoon/Desktop/Github/img/스크린샷 2020-02-01 오후 11.31.12.png" style="zoom:200%;" />
+<img width="920" alt="스크린샷 2020-02-01 오후 11 31 12" src="https://user-images.githubusercontent.com/60219074/73603209-056a1900-45c3-11ea-9565-639d66674d66.png">
 
 먼저 벡터의 덧셈을 함수로 만들어보자. (Data Science from Scratch 53쪽). 																		      벡터의 덧셈은 zip을 사용해서 두 벡터를 묶은 뒤, 두 배열의 각 성분끼리 더하는 리스트로 값을 받으면 된다.
 
@@ -96,14 +96,12 @@ def vector_add(vector1, vector2):
 
 모든 벡터의 각 성분을 더할 때는 어떻게 할까? 
 
-<img src="/Users/youngjunyoon/Desktop/Github/img/스크린샷 2020-02-02 오전 2.41.25.png" style="zoom:200%;" />
-
+<img width="772" alt="스크린샷 2020-02-02 오전 2 41 25" src="https://user-images.githubusercontent.com/60219074/73603216-19ae1600-45c3-11ea-8b54-bae85ad89cea.png">
 
 
 모든 벡터의 각 성분의 합을 구하려면 두 벡터의 합에 합을 또 그 합에 합을 더하기로 누적시켜서 합계를 구해야 한다.
 
-<img src="/Users/youngjunyoon/Desktop/Github/img/스크린샷 2020-02-02 오전 2.41.20.png" style="zoom:200%;" />
-
+<img width="772" alt="스크린샷 2020-02-02 오전 2 41 20" src="https://user-images.githubusercontent.com/60219074/73603215-19ae1600-45c3-11ea-9903-cf3e304e4e60.png">
 
 
 이것을 코드로 구현하면 아래와 같다.(Data Science from Scratch 53쪽)
@@ -176,7 +174,7 @@ vectors_sum(vectors)
 
 벡터의 곱하기는 스칼라값을 벡터에 각 요소마다 곱해주는 것이다. 
 
-![](/Users/youngjunyoon/Desktop/Github/img/스크린샷 2020-02-02 오후 1.35.36.png)
+<img width="581" alt="스크린샷 2020-02-02 오후 1 35 36" src="https://user-images.githubusercontent.com/60219074/73603217-19ae1600-45c3-11ea-9773-7d48f5b25d5f.png">
 
 > ※ 스칼라 : 숫자 하나 
 
