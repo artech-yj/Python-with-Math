@@ -23,7 +23,8 @@ x = np.array([1, 2, 3, 4])
 ============================================= 참고 ==============================================
 
 # 벡터는 배열인데 단순히 list로 표현하지 않고 numpy를 이용하는 이유 :
-list를 통해서는 벡터 연산을 할 수 없기 때문이다. 그래서 필요시에 데이터를 더하고, 곱하고, 빼는 등 다양한 연산을 하기 위해서 NumPy가 필요하다.
+list를 통해서는 벡터 연산을 할 수 없기 때문이다. 
+그래서 필요시에 데이터를 더하고, 곱하고, 빼는 등 다양한 연산을 하기 위해서 NumPy가 필요하다.
 ```
 
 ```python
@@ -93,6 +94,7 @@ vector_add(vector1,vector2)
 def vector_add(vector1, vector2): 
     return [vector1_i - vector2_i for vector1_i, vector2_i in zip(vector1,vector2)]
 ```
+
 
 
 
@@ -171,6 +173,8 @@ vectors_sum(vectors)
 [4, 8, 12, 16, 20, 24]
 '''
 ```
+
+
 
 
 
